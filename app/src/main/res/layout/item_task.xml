@@ -1,0 +1,61 @@
+<!-- item_task.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="2dp"
+    android:background="@drawable/item_background">
+
+    <!-- Fondo del contenedor principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título de la tarea -->
+        <TextView
+            android:id="@+id/textViewTaskTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Descripción de la tarea -->
+        <TextView
+            android:id="@+id/textViewTaskDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Estado de completado de la tarea -->
+            <CheckBox
+                android:id="@+id/checkBoxTaskCompleted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <!-- Fecha de creación de la tarea -->
+            <TextView
+                android:id="@+id/textViewTaskDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:textAlignment="textEnd"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Otro contenido adicional, si es necesario -->
+    <!-- ... -->
+
+</FrameLayout>

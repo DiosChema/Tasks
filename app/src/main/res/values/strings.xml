@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tareas</string>
+    <string name="add_task">Agregar tarea</string>
+    <string name="tittle_task">Título de la tarea</string>
+    <string name="desc_task">Descripción de la tarea</string>
+    <string name="low">Baja</string>
+    <string name="medium">Mediana</string>
+    <string name="high">Alta</string>
+    <string name="cancel">Cancelar</string>
+    <string name="Accept">Aceptar</string>
+</resources>
