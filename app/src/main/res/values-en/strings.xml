@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="add_task">New Task</string>
+    <string name="tittle_task">Title of the task</string>
+    <string name="desc_task">Description of the task</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="cancel">Cancel</string>
+    <string name="Accept">Accept</string>
+</resources>
